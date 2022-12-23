@@ -52,3 +52,7 @@ Route::get('/team', function(){
 Route::get('/gallery', function(){
     return view('layouts.gallery');
 });
+
+Route::get('/admin', function(){
+    return view('admin.app');
+});
