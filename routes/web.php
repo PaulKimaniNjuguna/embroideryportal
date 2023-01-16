@@ -56,3 +56,6 @@ Route::get('/gallery', function(){
 Route::get('/admin', function(){
     return view('admin.app');
 });
+Route::get('/viewcategory', function(){
+    return view('admin.viewcategory');
+});

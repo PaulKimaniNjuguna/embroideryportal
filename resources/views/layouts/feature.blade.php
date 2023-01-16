@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('content')
+@section('featurecontent')
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

@@ -76,7 +76,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="/home" class="nav-item nav-link active">Home</a>
+                <a href="/home" class="nav-item nav-link">Home</a>
                 <a href="/about" class="nav-item nav-link">About</a>
                 <a href="/service" class="nav-item nav-link">Services</a>
                 <a href="/product" class="nav-item nav-link">Products</a>
@@ -102,68 +102,99 @@
 
     <!-- Carousel Start -->
     <div class="container-fluid px-0 mb-5">
-        @yield('content')
+        @yield('homecontent')
     </div>
     <!-- Carousel End -->
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        @yield('content')
-    </div>
+
+    @yield('aboutcontent')
+
     <!-- About End -->
 
 
     <!-- Features Start -->
-    <div class="container-xxl py-5">
-        @yield('content')
-    </div>
+   
+        @yield('featurecontent')
+    
     <!-- Features End -->
 
 
     <!-- Banner Start -->
-
+    <div class="container-fluid banner my-5 py-5" data-parallax="scroll" data-image-src="img/banner.jpg">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-4">
+                            <img class="img-fluid rounded" src="img/banner-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h2 class="text-white mb-3">We Sell Best Dairy Products</h2>
+                            <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                                justo magna dolore erat amet</p>
+                            <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-4">
+                            <img class="img-fluid rounded" src="img/banner-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h2 class="text-white mb-3">We Deliver Fresh Mild Worldwide</h2>
+                            <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                                justo magna dolore erat amet</p>
+                            <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Banner End -->
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
-        @yield('content')
-    </div>
+    
+        @yield('servicecontent')
+    
     <!-- Service End -->
 
 
     <!-- Gallery Start -->
-    <div class="container-xxl py-5 px-0">
-        @yield('content')
-    </div>
+   
+        @yield('gallerycontent')
+   
     <!-- Gallery End -->
 
 
     <!-- Product Start -->
-    <div class="container-xxl py-5">
-        @yield('content')
-    </div>
+   
+        @yield('productcontent')
+    
     <!-- Product End -->
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        @yield('content')
-    </div>
+    
+        @yield('teamcontent')
+    
     <!-- Team End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    
         @yield('content')
-    </div>
+    
     <!-- Testimonial End -->
 
     <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        @yield('content')
-    </div>
+    
+        @yield('contactcontent')
+    =
     <!-- Contact End -->
 
     <!-- Footer Start -->
@@ -172,7 +203,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Nairobi, Kenya</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-3">
