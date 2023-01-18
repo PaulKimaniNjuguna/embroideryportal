@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('homecontent')
+@section('content')
     <!-- Carousel Start -->
     <div class="container-fluid px-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -52,7 +52,7 @@
     </div>
     <!-- Carousel End -->
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl">
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6">

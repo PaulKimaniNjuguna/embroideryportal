@@ -13,44 +13,40 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/master', function () {
-    return view('layouts.master');
-});
-
 Route::get('/about', function(){
-    return view('layouts.about');
+    return view('pages.about');
 });
 
 Route::get('/home', function(){
-    return view('layouts.home');
+    return view('pages.home');
 });
 
 Route::get('/feature', function(){
-    return view('layouts.feature');
+    return view('pages.feature');
 });
 
 Route::get('/service', function(){
-    return view('layouts.service');
+    return view('pages.service');
 });
 
 Route::get('/product', function(){
-    return view('layouts.product');
+    return view('pages.product');
 });
 
 Route::get('/testimonial', function(){
-    return view('layouts.testimonial');
+    return view('pages.testimonial');
 });
 
 Route::get('/contact', function(){
-    return view('layouts.contact');
+    return view('pages.contact');
 });
 
 Route::get('/team', function(){
-    return view('layouts.team');
+    return view('pages.team');
 });
 
 Route::get('/gallery', function(){
-    return view('layouts.gallery');
+    return view('pages.gallery');
 });
 
 Route::get('/admin', function(){
@@ -58,4 +54,8 @@ Route::get('/admin', function(){
 });
 Route::get('/viewcategory', function(){
     return view('admin.viewcategory');
+});
+
+Route::get('/', function () {
+    return redirect('/home');
 });

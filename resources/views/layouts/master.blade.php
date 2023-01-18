@@ -100,29 +100,13 @@
     <!-- Navbar End -->
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid px-0 mb-5">
-        @yield('homecontent')
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- About Start -->
-
-    @yield('aboutcontent')
-
-    <!-- About End -->
-
-
-    <!-- Features Start -->
-   
-        @yield('featurecontent')
     
-    <!-- Features End -->
+    
+        @yield('content')
 
 
-    <!-- Banner Start -->
-    <div class="container-fluid banner my-5 py-5" data-parallax="scroll" data-image-src="img/banner.jpg">
+        <!-- Banner Start -->
+    <div class="container-fluid banner" data-parallax="scroll" data-image-src="img/banner.jpg">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
@@ -156,49 +140,8 @@
     </div>
     <!-- Banner End -->
 
-
-    <!-- Service Start -->
-    
-        @yield('servicecontent')
-    
-    <!-- Service End -->
-
-
-    <!-- Gallery Start -->
-   
-        @yield('gallerycontent')
-   
-    <!-- Gallery End -->
-
-
-    <!-- Product Start -->
-   
-        @yield('productcontent')
-    
-    <!-- Product End -->
-
-
-    <!-- Team Start -->
-    
-        @yield('teamcontent')
-    
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    
-        @yield('content')
-    
-    <!-- Testimonial End -->
-
-    <!-- Contact Start -->
-    
-        @yield('contactcontent')
-    =
-    <!-- Contact End -->
-
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark footer wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -251,7 +194,7 @@
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid bg-secondary text-body copyright py-4">
+    {{-- <div class="container-fluid bg-secondary text-body copyright py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
@@ -263,7 +206,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Copyright End -->
 
 

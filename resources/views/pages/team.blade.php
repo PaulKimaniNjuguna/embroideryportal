@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('teamcontent')
+@section('content')
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="section-title bg-white text-center text-primary px-3">Our Team</p>
