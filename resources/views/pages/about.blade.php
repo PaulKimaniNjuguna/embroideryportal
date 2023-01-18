@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('aboutcontent')
+@section('content')
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6">

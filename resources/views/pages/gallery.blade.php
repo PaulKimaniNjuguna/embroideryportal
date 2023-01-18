@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('gallerycontent')
+@section('content')
     <div class="row g-0">
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
